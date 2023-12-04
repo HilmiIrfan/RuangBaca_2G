@@ -12,7 +12,7 @@ if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
     $deskripsi_buku = $row['deskripsi'];
 
-    // Gunakan $deskripsi_buku sesuai kebutuhan
+    // Gunakan $deskripsi_buku sesuai kebutuhan (test commit)
     echo "Deskripsi Buku: " . $deskripsi_buku;
 } else {
     echo "Buku tidak ditemukan.";
